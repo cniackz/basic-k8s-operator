@@ -34,4 +34,5 @@ kind load docker-image docker.io/library/radical-123
 kubectl apply -f ~/basic-k8s-operator/config/manager
 kubectl apply -k ~/basic-k8s-operator/config/rbac
 kubectl apply -k ~/basic-k8s-operator/config/crd
+kubectl apply -f ~/basic-k8s-operator/cr.yaml
 ```
