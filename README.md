@@ -1,5 +1,10 @@
-# basic-k8s-operator
+### Description:
+
 Operator's Basic Structure
+
+### Links:
+
+* https://github.com/cniackz/public/wiki/How-to-Create-the-Skeleton-of-an-Operator
 
 ### Diagram:
 
