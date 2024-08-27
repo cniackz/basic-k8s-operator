@@ -5,6 +5,20 @@ metadata:
   name: manager-role
 rules:
 - apiGroups:
+  - ''
+  resources:
+  - events
+  verbs:
+  - create
+- apiGroups:
+  - coordination.k8s.io
+  verbs:
+  - get
+  - create
+  - update
+  resources:
+  - leases
+- apiGroups:
   - apps.example.com
   resources:
   - myapps
