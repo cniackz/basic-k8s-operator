@@ -1,0 +1,9 @@
+apiVersion: apps.example.com/v1alpha1
+kind: MyApp
+metadata:
+  labels:
+    app.kubernetes.io/name: tmp
+    app.kubernetes.io/managed-by: kustomize
+  name: myapp-sample
+spec:
+  # TODO(user): Add fields here
