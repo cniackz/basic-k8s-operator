@@ -12,18 +12,20 @@ Operator's Basic Structure
 
 ### Instructions:
 
-1. Clone the repository
+1. Create an empty cluster
+
+```shell
+createcluster
+```
+
+2. Clone the repository
 
 ```shell
 rm -rf ~/basic-k8s-operator/
 cd; git clone git@github.com:cniackz/basic-k8s-operator.git
 cd ~/basic-k8s-operator
-```
-
-2. Create an empty cluster
-
-```shell
-createcluster
+make docker-build IMG=radical-123
+kind load docker-image docker.io/library/radical-123
 ```
    
 3. Deploy the Operator
