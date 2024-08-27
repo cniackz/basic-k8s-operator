@@ -26,4 +26,10 @@ cd ~/basic-k8s-operator
 createcluster
 ```
    
-3. Deploy the Operator 
+3. Deploy the Operator
+
+```shell
+kubectl apply -f ~/basic-k8s-operator/config/manager
+kubectl apply -k ~/basic-k8s-operator/config/rbac
+kubectl apply -k ~/basic-k8s-operator/config/crd
+```
