@@ -14,6 +14,16 @@ Operator's Basic Structure
 
 1. Clone the repository
 
+```shell
+rm -rf ~/basic-k8s-operator/
+cd; git clone git@github.com:cniackz/basic-k8s-operator.git
+cd ~/basic-k8s-operator
+```
+
 2. Create an empty cluster
+
+```shell
+createcluster
+```
    
 3. Deploy the Operator 
