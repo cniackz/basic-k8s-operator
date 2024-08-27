@@ -36,3 +36,8 @@ kubectl apply -k ~/basic-k8s-operator/config/rbac
 kubectl apply -k ~/basic-k8s-operator/config/crd
 kubectl apply -f ~/basic-k8s-operator/cr.yaml
 ```
+
+### Expected:
+
+<img width="1840" alt="Screenshot 2024-08-27 at 2 13 49 PM" src="https://github.com/user-attachments/assets/ea52af6c-68d7-44fc-870d-b70b0d456386">
+
